@@ -1,0 +1,16 @@
+blockquote.content_field_blockquote .content_field {
+border: solid 1px #ccc;
+padding: 10px;
+background: #fff;
+margin-bottom: 10px;
+}
+blockquote.content_field_blockquote .content_field label{
+color:#e14d43;
+font-style: italic;
+}
+blockquote.content_field_blockquote .content_field .content_field_value {
+clear: both;
+margin: 10px 0px;
+padding-top: 10px;
+border-top: dashed 1px #ccc;
+}

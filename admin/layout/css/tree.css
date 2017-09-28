@@ -1,0 +1,65 @@
+.tree, .tree ul {
+    margin:0;
+    padding:0;
+    list-style:none,
+	margin-bottom: 20px;
+}
+.tree ul {
+    margin-left:1em;
+    position:relative
+}
+.tree ul ul {
+    margin-left:.5em
+}
+.tree ul:before {
+    content:"";
+    display:block;
+    width:0;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    border-left:1px solid
+}
+.tree li {
+	margin: 0;
+	padding: 0 1em;
+	line-height: 2em;
+	color: #000;
+	font-weight: 100;
+	position: relative; 
+	cursor: pointer;
+}
+.tree li .radio-inline input {
+margin-top: 0.5em;
+}
+.tree ul li:before {
+    content:"";
+    display:block;
+    width:10px;
+    height:0;
+    border-top:1px solid;
+    margin-top:-1px;
+    position:absolute;
+    top:1em;
+    left:0;
+	background:#fff;
+}
+.tree ul li:last-child:before {
+    height: auto;
+    top: 1em;
+    bottom: 0;
+    background: transparent;
+}
+.indicator {
+    margin-right:5px;
+}
+.tree li a {
+    text-decoration: none;
+}
+.tree .branch {
+    cursor: pointer;
+    background: #F5F5F5;
+    border-bottom: solid 1px #fff;
+    box-sizing: border-box;
+}

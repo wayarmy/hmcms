@@ -1,0 +1,36 @@
+blockquote.content_field_blockquote .content_field {
+padding: 10px;
+background: #fff;
+}
+blockquote.content_field_blockquote .content_field label{
+color:#e14d43;
+font-style: italic;
+}
+blockquote.content_field_blockquote .content_field .content_field_value {
+clear: both;
+margin: 10px 0px;
+padding-top: 10px;
+border-top: dashed 1px #ccc;
+}
+table.diff {
+  width: 100%;
+}
+.diff td{
+  padding: 10px;
+  width: 50%;
+}
+.diff td blockquote.diffBlockquote{
+  padding: 10px;
+}
+.diffDeleted blockquote.diffBlockquote {
+  border: 1px solid rgb(255,192,192);
+  background: rgb(255,224,224);
+}
+.diffInserted blockquote.diffBlockquote {
+  border: 1px solid rgb(192,255,192);
+  background: rgb(224,255,224);
+}
+.diffUnmodified blockquote.diffBlockquote {
+  border: 1px solid rgb(213, 213, 213);
+  background: rgb(247, 247, 247);
+}

@@ -1,0 +1,73 @@
+.wysiwyg {
+min-height: 500px;
+min-width:100%;
+background: #fff;
+}
+.taxnomy_list_ajax{
+
+}
+.content_number_order {
+    
+}
+.content_thumbnail {
+    float: left;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 48px;
+    height: 48px;
+}
+.content_thumbnail img {
+    width: 48px;
+    height: 48px;
+}
+.table-striped>tbody>tr.content_tr_highlight{
+	background:#fff;
+	height: 37px;
+}
+.content_edit_popup_wrapper {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+}
+#popup_box_modal .modal-body{
+	height:635px;
+}
+input.search_keyword {
+    width: 150px;
+    line-height: 20px;
+    height: 24px;
+    box-sizing: border-box;
+    border: solid 1px #ccc;
+    float: left;
+    margin-right: 10px;
+    font-size: 12px;
+    font-family: Arial;
+    padding-left: 10px;
+}
+.search_tax_panel {
+    float: left;
+    width: auto;
+    height: 24px;
+    position: relative;
+    z-index: 10;
+}
+.search_tax_panel > ul{
+	font-size: 12px;
+    background: #f9f9f9;
+    border: solid 1px #ccc;
+    clear: both;
+    float: left;
+    margin-top: -1px;
+	display: none;
+}
+.search_tax_panel:hover > ul{
+	display: block;
+}
+.search_tax_label{
+    float: left;
+    padding: 2px 5px;
+    min-width: 100px;
+}

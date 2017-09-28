@@ -1,0 +1,17 @@
+html{
+	margin-top:32px !important;
+}
+.hm_footer_quickbar {
+    width: 100%;
+    min-height: 32px;
+    background: #333;
+    float: left;
+    position: fixed;
+    top: 0px;
+    z-index: 999999;
+}
+.hm_footer_wrapper{
+	width:80%;
+	margin:auto;
+	position:relative;
+}

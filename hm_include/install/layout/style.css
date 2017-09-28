@@ -1,0 +1,106 @@
+/* CSS Document */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+background: transparent;
+/* text-align:left; */
+}
+/*
+*{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+*/
+ol, ul {
+list-style: none;
+}
+/* remember to define focus styles */
+:focus {
+outline: 0;
+}
+h1, h2, h3, h4, h5, h6{
+font-size:16px;
+}
+p,span,div{
+cursor:default;
+}
+a span{
+cursor:pointer;
+}
+* {
+ font-size: 100%;
+ font-family: Tahoma,sans-serif;
+}
+a{
+text-decoration:none;
+}
+a:hover{
+text-decoration:none;
+}
+.clear{
+clear:both;
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: "";
+     clear: both;
+     height: 0;
+}
+table{
+	border-collapse: collapse;
+    border-spacing: 0;
+}
+/*~~~~~~~~~END OF RESETCSS~~~~~~~~~~~*/ 
+body{
+	background: #f7f7f7;
+}
+#content{
+    width: 800px;
+    min-height: 500px;
+    background: #fff;
+    margin: 20px auto;
+    box-shadow: 0px 0px 5px 0px #ccc;
+    padding: 10px;
+    box-sizing: border-box;	
+    font-size: 12px;
+}
+p.hello_world {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #F7F7F7;
+}
+h1.title {
+    font-weight: bold;
+    margin: 20px 0px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 18px;
+	color:#ea533f;
+}
+.form-group {
+    border: solid 1px #F7F7F7;
+    padding: 10px;
+    border-left: solid 4px #ea533f;
+}
+p.input_des {
+    font-size: 12px;
+    margin: 10px 0px;
+}

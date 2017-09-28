@@ -1,0 +1,49 @@
+h1.our_team_title {
+    font-size: 23px;
+    font-weight: 400;
+    padding: 20px 15px 20px 5px;
+    line-height: 29px;
+}
+.src-image {
+  display: none;
+}
+
+.card {
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #CCC;
+    border-radius: 6px;
+    text-align: center;
+    padding: 10px;
+    background-color: #FBFBF5;
+    color: #174d87;
+    max-width: 190px;
+    margin: auto;
+}
+
+.card .header-bg {
+  /* This stretches the canvas across the entire hero unit */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  border-bottom: 1px #FFF solid;
+  /* This positions the canvas under the text */
+  z-index: 1;
+}
+.card .avatar {
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  z-index: 1;
+}
+
+.card .avatar img {
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 5px solid rgba(0,0,30,0.8);
+}

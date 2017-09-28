@@ -1,0 +1,69 @@
+.tree_media, .tree_media ul {
+    margin:0;
+    padding:0;
+    list-style:none,
+	margin-bottom: 20px;
+}
+.tree_media ul {
+    margin-left:1em;
+    position:relative
+}
+.tree_media ul ul {
+    margin-left:.5em
+}
+.tree_media ul:before {
+    content:"";
+    display:block;
+    width:0;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    border-left:1px solid
+}
+.tree_media li {
+    margin: 0;
+    padding: 0 1em;
+    line-height: 2em;
+    color: #000;
+    font-weight: 100;
+    position: relative;
+    cursor: pointer;
+    background: #f5f5f5;
+}
+.tree_media li .radio-inline input {
+margin-top: 0.5em;
+}
+.tree_media ul li:before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 0;
+    border-top: 1px solid;
+    margin-top: -1px;
+    position: absolute;
+    top: 19px;
+    left: 0;
+    background: #f5f5f5;
+}
+.tree_media ul li:last-child:before {
+    height:auto;
+    top:1em;
+    bottom:0
+}
+.indicator {
+    margin-right:5px;
+}
+.tree_media li a {
+    text-decoration: none;
+}
+.tree_media li .glyphicon {
+    position: relative;
+    top: 5px;
+}
+.tree .branch {
+    cursor: pointer;
+    background: transparent;
+    border-bottom: none;
+    box-sizing: border-box;
+}
